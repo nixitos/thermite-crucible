@@ -334,3 +334,22 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m ascii v1.1.0
 [1m[92m   Compiling[0m tiny_http v0.12.0
 [1m[92m   Compiling[0m eframe v0.27.2
+[1m[92m   Compiling[0m monoscript_rs v0.1.0 (D:\a\thermite-crucible\thermite-crucible\jobs\01M64VEAF189DFFHHZ35ZS82CA\source)
+[1m[93mwarning[0m[1m[97m: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied[0m
+   [1m[96m--> [0msrc\main.rs:217:37
+    [1m[96m|[0m
+[1m[96m217[0m [1m[96m|[0m                 .stroke(Stroke::new(1.0, Color32::from_rgb(40, 40, 45)))
+    [1m[96m|[0m                                     [1m[93m^^^[0m [1m[93mhelp: explicitly specify the type as `f32`: `1.0_f32`[0m
+    [1m[96m|[0m
+    [1m[96m= [0m[1m[97mwarning[0m: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    [1m[96m= [0m[1m[97mnote[0m: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+    [1m[96m= [0m[1m[97mnote[0m: `#[warn(float_literal_f32_fallback)]` (part of `#[warn(future_incompatible)]`) on by default
+
+[1m[93mwarning[0m[1m[97m: constant `ACCENT_HOVER` is never used[0m
+  [1m[96m--> [0msrc\main.rs:19:7
+   [1m[96m|[0m
+[1m[96m19[0m [1m[96m|[0m const ACCENT_HOVER: Color32 = Color32::from_rgb(160, 110, 200); // Акцент при наведении
+   [1m[96m|[0m       [1m[93m^^^^^^^^^^^^[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
