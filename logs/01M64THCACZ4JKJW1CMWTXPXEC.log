@@ -232,3 +232,4 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m ahash v0.8.12
 [1m[92m   Compiling[0m windows-sys v0.48.0
 [1m[92m   Compiling[0m ttf-parser v0.25.1
+[1m[92m   Compiling[0m synstructure v0.14.0
