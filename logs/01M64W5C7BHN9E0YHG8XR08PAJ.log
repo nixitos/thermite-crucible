@@ -243,3 +243,10 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m yoke-derive v0.8.4
 [1m[92m   Compiling[0m zerofrom v0.1.8
 [1m[92m   Compiling[0m zerovec-derive v0.11.7
+[1m[92m   Compiling[0m displaydoc v0.2.7
+[1m[92m   Compiling[0m yoke v0.8.4
+[1m[92m   Compiling[0m bytemuck_derive v1.12.1
+[1m[92m   Compiling[0m zerotrie v0.2.5
+[1m[92m   Compiling[0m zerovec v0.11.9
+[1m[92m   Compiling[0m scopeguard v1.2.0
+[1m[92m   Compiling[0m simd-adler32 v0.3.10
