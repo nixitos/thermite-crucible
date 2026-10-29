@@ -204,3 +204,6 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m  Downloaded[0m libc v0.2.191
 [1m[92m  Downloaded[0m winapi v0.3.9
 [1m[92m  Downloaded[0m windows-sys v0.61.2
+[1m[92m  Downloaded[0m windows-sys v0.48.0
+[1m[92m  Downloaded[0m image v0.24.9
+[1m[92m  Downloaded[0m windows v0.48.0
