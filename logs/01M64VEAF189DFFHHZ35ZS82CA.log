@@ -323,3 +323,5 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m glow v0.13.1
 [1m[92m   Compiling[0m byteorder v1.5.0
 [1m[92m   Compiling[0m image v0.24.9
+[1m[92m   Compiling[0m document-features v0.2.12
+[1m[92m   Compiling[0m egui_glow v0.27.2
