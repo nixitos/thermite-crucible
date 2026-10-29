@@ -267,3 +267,12 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m idna_adapter v1.2.2
 [1m[92m   Compiling[0m emath v0.27.2
 [1m[92m   Compiling[0m ecolor v0.27.2
+[1m[92m   Compiling[0m windows-implement v0.48.0
+[1m[92m   Compiling[0m windows-interface v0.48.0
+[1m[92m   Compiling[0m glutin_egl_sys v0.6.0
+[1m[92m   Compiling[0m glutin_wgl_sys v0.5.0
+[1m[92m   Compiling[0m unicode-segmentation v1.13.3
+[1m[92m   Compiling[0m cursor-icon v1.2.0
+[1m[92m   Compiling[0m nohash-hasher v0.2.0
+[1m[92m   Compiling[0m percent-encoding v2.3.2
+[1m[92m   Compiling[0m smol_str v0.2.2
