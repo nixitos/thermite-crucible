@@ -24,3 +24,60 @@ info: component rust-std is up to date
 $ cargo +stable build --release --target x86_64-pc-windows-msvc
 
 [1m[92m    Updating[0m crates.io index
+[1m[92m     Locking[0m 423 packages to highest compatible versions
+[1m[92m      Adding[0m block-sys v0.1.0-beta.1 [1m[93m(available: v0.1.0-beta.2)[0m
+[1m[92m      Adding[0m block2 v0.2.0-alpha.6 [1m[93m(available: v0.2.0)[0m
+[1m[92m      Adding[0m eframe v0.27.2 [1m[93m(available: v0.37.0)[0m
+[1m[92m      Adding[0m generic-array v0.14.7 [1m[93m(available: v0.14.9)[0m
+[1m[92m      Adding[0m objc-sys v0.2.0-beta.2 [1m[93m(available: v0.2.0-beta.3)[0m
+[1m[92m      Adding[0m objc2 v0.3.0-beta.3.patch-leaks.3 [1m[93m(available: v0.3.0-beta.5)[0m
+[1m[92m      Adding[0m objc2-encode v2.0.0-pre.2 [1m[93m(available: v2.0.0)[0m
+[1m[92m      Adding[0m zvariant_utils v1.0.1 [1m[93m(available: v1.1.1)[0m
+[1m[92m Downloading[0m crates ...
+[1m[92m  Downloaded[0m zerovec-derive v0.11.7
+[1m[92m  Downloaded[0m ab_glyph v0.2.32
+[1m[92m  Downloaded[0m ab_glyph_rasterizer v0.1.10
+[1m[92m  Downloaded[0m accesskit_windows v0.15.1
+[1m[92m  Downloaded[0m egui-winit v0.27.2
+[1m[92m  Downloaded[0m gpu-descriptor-types v0.1.2
+[1m[92m  Downloaded[0m com v0.6.0
+[1m[92m  Downloaded[0m glutin_egl_sys v0.6.0
+[1m[92m  Downloaded[0m windows-interface v0.48.0
+[1m[92m  Downloaded[0m windows-targets v0.48.5
+[1m[92m  Downloaded[0m bit-vec v0.6.3
+[1m[92m  Downloaded[0m windows-implement v0.48.0
+[1m[92m  Downloaded[0m yoke-derive v0.8.4
+[1m[92m  Downloaded[0m ascii v1.1.0
+[1m[92m  Downloaded[0m error-code v3.4.0
+[1m[92m  Downloaded[0m windows-targets v0.52.6
+[1m[92m  Downloaded[0m color_quant v1.1.0
+[1m[92m  Downloaded[0m windows-link v0.2.1
+[1m[92m  Downloaded[0m bitflags v1.3.2
+[1m[92m  Downloaded[0m emath v0.27.2
+[1m[92m  Downloaded[0m accesskit v0.12.3
+[1m[92m  Downloaded[0m clipboard-win v5.4.3
+[1m[92m  Downloaded[0m gpu-descriptor v0.2.4
+[1m[92m  Downloaded[0m bytemuck_derive v1.12.1
+[1m[92m  Downloaded[0m codespan-reporting v0.11.1
+[1m[92m  Downloaded[0m khronos-egl v6.0.0
+[1m[92m  Downloaded[0m zerofrom-derive v0.1.8
+[1m[92m  Downloaded[0m egui_glow v0.27.2
+[1m[92m  Downloaded[0m hassle-rs v0.11.0
+[1m[92m  Downloaded[0m thiserror-impl v1.0.69
+[1m[92m  Downloaded[0m xml-rs v0.8.29
+[1m[92m  Downloaded[0m profiling v1.0.18
+[1m[92m  Downloaded[0m byteorder v1.5.0
+[1m[92m  Downloaded[0m hexf-parse v0.2.1
+[1m[92m  Downloaded[0m icu_normalizer_data v2.4.0
+[1m[92m  Downloaded[0m libloading v0.7.4
+[1m[92m  Downloaded[0m gpu-allocator v0.25.0
+[1m[92m  Downloaded[0m accesskit_consumer v0.16.1
+[1m[92m  Downloaded[0m bytemuck v1.25.2
+[1m[92m  Downloaded[0m ecolor v0.27.2
+[1m[92m  Downloaded[0m httpdate v1.0.3
+[1m[92m  Downloaded[0m nohash-hasher v0.2.0
+[1m[92m  Downloaded[0m com_macros v0.6.0
+[1m[92m  Downloaded[0m eframe v0.27.2
+[1m[92m  Downloaded[0m writeable v0.6.4
+[1m[92m  Downloaded[0m adler2 v2.0.1
+[1m[92m  Downloaded[0m arrayvec v0.7.8
