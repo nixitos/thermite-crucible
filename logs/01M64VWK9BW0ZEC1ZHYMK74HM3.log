@@ -335,3 +335,23 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m tiny_http v0.12.0
 [1m[92m   Compiling[0m eframe v0.27.2
 [1m[92m   Compiling[0m monoscript_rs v0.1.0 (D:\a\thermite-crucible\thermite-crucible\jobs\01M64VWK9BW0ZEC1ZHYMK74HM3\source)
+[1m[91merror[E0502][0m[1m[97m: cannot borrow `*self` as mutable because it is also borrowed as immutable[0m
+   [1m[96m--> [0msrc\main.rs:331:9
+    [1m[96m|[0m
+[1m[96m329[0m [1m[96m|[0m         let mut state = self.shared_state.lock().unwrap();
+    [1m[96m|[0m                         [1m[96m-----------------[0m [1m[96mimmutable borrow occurs here[0m
+[1m[96m330[0m [1m[96m|[0m         state.script_to_execute = script;
+[1m[96m331[0m [1m[96m|[0m         self.set_feedback("✓ скрипт отправлен", false);
+    [1m[96m|[0m         [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [1m[91mmutable borrow occurs here[0m
+[1m[96m332[0m [1m[96m|[0m     }
+    [1m[96m|[0m     [1m[96m-[0m [1m[96mimmutable borrow might be used here, when `state` is dropped and runs the `Drop` code for type `std::sync::MutexGuard`[0m
+
+[1m[97mFor more information about this error, try `rustc --explain E0502`.[0m
+[1m[91merror[0m: could not compile `monoscript_rs` (bin "monoscript_rs") due to 1 previous error
+
+##thermite:failed:101
+Compilation failed. Exit code 101.
+
+BUILD FAILED
+
+##thermite:end:FAILED
