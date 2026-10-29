@@ -307,3 +307,11 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m thiserror-impl v1.0.69
 [1m[92m   Compiling[0m accesskit_winit v0.16.1
 [1m[92m   Compiling[0m webbrowser v0.8.15
+[1m[92m   Compiling[0m color_quant v1.1.0
+[1m[92m   Compiling[0m web-time v0.2.4
+[1m[92m   Compiling[0m byteorder v1.5.0
+[1m[92m   Compiling[0m glow v0.13.1
+[1m[92m   Compiling[0m litrs v1.0.1
+[1m[92m   Compiling[0m image v0.24.9
+[1m[92m   Compiling[0m document-features v0.2.12
+[1m[92m   Compiling[0m egui-winit v0.27.2
