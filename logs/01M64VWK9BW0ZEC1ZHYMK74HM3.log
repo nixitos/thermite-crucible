@@ -327,3 +327,5 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m document-features v0.2.12
 [1m[92m   Compiling[0m egui-winit v0.27.2
 [1m[92m   Compiling[0m serde_derive v1.0.229
+[1m[92m   Compiling[0m itoa v1.0.18
+[1m[92m   Compiling[0m memchr v2.8.3
