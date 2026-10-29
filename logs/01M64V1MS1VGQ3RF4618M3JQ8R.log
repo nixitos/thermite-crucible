@@ -10,3 +10,19 @@ info: syncing channel updates for 1.99.1-x86_64-pc-windows-msvc
 info: latest update on 2026-10-15 for version 1.99.1 (58cf8f9c3 2026-10-13)
 info: downloading 3 components
 
+  1.99.1-x86_64-pc-windows-msvc installed - rustc 1.99.1 (58cf8f9c3 2026-10-13)
+
+
+$ rustup target add x86_64-pc-windows-msvc --toolchain 1.99.1
+info: component rust-std is up to date
+
+  rustc 1.99.1 (58cf8f9c3 2026-10-13)
+  cargo 1.99.1 (5f94df478 2026-08-27)
+  runner Windows/X64
+##thermite:toolchain-ready
+  sandbox  none (native Windows runner — see repo README)
+
+##thermite:compiling
+$ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
+
+[1m[92m    Updating[0m crates.io index
