@@ -1,0 +1,8 @@
+THERMITE // pour 01M64W5C7BHN9E0YHG8XR08PAJ
+commit  537985c67407768181dc62071822fa7dc07c5184
+run     40965492000
+target  x86_64-pc-windows-msvc
+rust    stable
+runner  Windows/X64
+
+$ rustup toolchain install stable --profile minimal
