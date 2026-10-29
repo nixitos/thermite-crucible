@@ -324,3 +324,7 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 Compiled clean. Casting the ingot.
 ##thermite:packaged thermite-01M64THCACZ4JKJW1CMWTXPXEC.zip sha256=425e728893219d6708ae616e2b275bf0d56e9fcf12d3649ad993ae8dc6172c98
 ##thermite:ingot https://github.com/nixitos/thermite-crucible/releases/download/pour-01M64THCACZ4JKJW1CMWTXPXEC/thermite-01M64THCACZ4JKJW1CMWTXPXEC.zip
+
+BUILD SUCCESS
+
+##thermite:end:SUCCESS
