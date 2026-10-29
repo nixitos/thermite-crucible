@@ -301,3 +301,6 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m url v2.5.8
 [1m[92m   Compiling[0m miniz_oxide v0.8.9
 [1m[92m   Compiling[0m fdeflate v0.3.7
+[1m[92m   Compiling[0m syn v2.0.119
+[1m[92m   Compiling[0m libloading v0.8.9
+[1m[92m   Compiling[0m accesskit_windows v0.15.1
