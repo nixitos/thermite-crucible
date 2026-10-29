@@ -315,3 +315,7 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m thiserror-impl v1.0.69
 [1m[92m   Compiling[0m accesskit_winit v0.16.1
 [1m[92m   Compiling[0m webbrowser v0.8.15
+[1m[92m   Compiling[0m web-time v0.2.4
+[1m[92m   Compiling[0m serde_json v1.0.154
+[1m[92m   Compiling[0m byteorder v1.5.0
+[1m[92m   Compiling[0m glow v0.13.1
