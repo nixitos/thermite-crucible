@@ -23,3 +23,4 @@ info: component rust-std is up to date
 ##thermite:compiling
 $ cargo +stable build --release --target x86_64-pc-windows-msvc
 
+[1m[92m    Updating[0m crates.io index
