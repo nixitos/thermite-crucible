@@ -1,0 +1,18 @@
+{
+  "job": "01M64VEAF189DFFHHZ35ZS82CA",
+  "phase": "INGEST",
+  "live": true,
+  "startedAt": "2026-10-29T22:11:18.120Z",
+  "updatedAt": "2026-10-29T22:11:22.598Z",
+  "bytes": 232,
+  "lines": 8,
+  "lineRate": 8,
+  "runner": "Windows/X64",
+  "sealed": false,
+  "runId": "40963838714",
+  "sha": "2e1556ff2d892dc64d77c55677508fc001a995d6",
+  "rustc": null,
+  "cargo": null,
+  "target": "x86_64-pc-windows-msvc",
+  "toolchain": "stable"
+}
