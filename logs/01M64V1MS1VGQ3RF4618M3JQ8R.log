@@ -337,3 +337,7 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m tiny_http v0.12.0
 [1m[92m   Compiling[0m eframe v0.27.2
 [1m[92m   Compiling[0m monoscript_rs v0.1.0 (D:\a\thermite-crucible\thermite-crucible\jobs\01M64V1MS1VGQ3RF4618M3JQ8R\source)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 1m 48s
+
+##thermite:linking
+Compiled clean. Casting the ingot.
