@@ -304,3 +304,6 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m thiserror v1.0.69
 [1m[92m   Compiling[0m png v0.17.16
 [1m[92m   Compiling[0m arboard v3.7.0
+[1m[92m   Compiling[0m thiserror-impl v1.0.69
+[1m[92m   Compiling[0m accesskit_winit v0.16.1
+[1m[92m   Compiling[0m webbrowser v0.8.15
