@@ -306,3 +306,10 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m syn v2.0.119
 [1m[92m   Compiling[0m accesskit_windows v0.15.1
 [1m[92m   Compiling[0m glutin-winit v0.4.2
+[1m[92m   Compiling[0m libloading v0.8.9
+[1m[92m   Compiling[0m windows-sys v0.61.2
+[1m[92m   Compiling[0m winapi v0.3.9
+[1m[92m   Compiling[0m thiserror v1.0.69
+[1m[92m   Compiling[0m bitflags v1.3.2
+[1m[92m   Compiling[0m zmij v1.0.23
+[1m[92m   Compiling[0m png v0.17.16
