@@ -291,3 +291,8 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m accesskit_consumer v0.16.1
 [1m[92m   Compiling[0m num-traits v0.2.19
 [1m[92m   Compiling[0m memoffset v0.9.1
+[1m[92m   Compiling[0m glutin v0.31.3
+[1m[92m   Compiling[0m serde_core v1.0.229
+[1m[92m   Compiling[0m static_assertions v1.1.0
+[1m[92m   Compiling[0m error-code v3.4.0
+[1m[92m   Compiling[0m clipboard-win v5.4.3
