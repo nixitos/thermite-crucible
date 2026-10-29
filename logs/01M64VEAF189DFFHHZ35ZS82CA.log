@@ -235,3 +235,7 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m parking_lot_core v0.9.12
 [1m[92m   Compiling[0m version_check v0.9.5
 [1m[92m   Compiling[0m zerocopy v0.8.63
+[1m[92m   Compiling[0m ahash v0.8.12
+[1m[92m   Compiling[0m windows-sys v0.48.0
+[1m[92m   Compiling[0m simd-adler32 v0.3.10
+[1m[92m   Compiling[0m ttf-parser v0.25.1
