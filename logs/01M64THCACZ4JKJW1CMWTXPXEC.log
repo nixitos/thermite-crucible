@@ -1,0 +1,11 @@
+THERMITE // pour 01M64THCACZ4JKJW1CMWTXPXEC
+commit  a8ec43f1f866160a019aa5f369930a5e5e9951dd
+run     40961728009
+target  x86_64-pc-windows-msvc
+rust    1.99.1
+runner  Windows/X64
+
+$ rustup toolchain install 1.99.1 --profile minimal
+info: syncing channel updates for 1.99.1-x86_64-pc-windows-msvc
+info: latest update on 2026-10-15 for version 1.99.1 (58cf8f9c3 2026-10-13)
+info: downloading 3 components
