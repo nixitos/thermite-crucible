@@ -119,3 +119,16 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m  Downloaded[0m icu_locale_core v2.4.0
 [1m[92m  Downloaded[0m paste v1.0.15
 [1m[92m  Downloaded[0m potential_utf v0.1.6
+[1m[92m  Downloaded[0m icu_normalizer_data v2.4.0
+[1m[92m  Downloaded[0m icu_provider v2.4.0
+[1m[92m  Downloaded[0m libloading v0.7.4
+[1m[92m  Downloaded[0m libloading v0.8.9
+[1m[92m  Downloaded[0m type-map v0.5.1
+[1m[92m  Downloaded[0m arboard v3.7.0
+[1m[92m  Downloaded[0m profiling v1.0.18
+[1m[92m  Downloaded[0m smol_str v0.2.2
+[1m[92m  Downloaded[0m eframe v0.27.2
+[1m[92m  Downloaded[0m icu_collections v2.4.0
+[1m[92m  Downloaded[0m zerovec v0.11.9
+[1m[92m  Downloaded[0m icu_properties v2.4.0
+[1m[92m  Downloaded[0m indexmap v2.14.2
