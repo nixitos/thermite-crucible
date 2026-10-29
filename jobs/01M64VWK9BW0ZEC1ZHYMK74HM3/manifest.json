@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "id": "01M64VWK9BW0ZEC1ZHYMK74HM3",
+  "toolchain": "stable",
+  "target": "x86_64-pc-windows-msvc",
+  "projectType": "cargo",
+  "name": "monoscript_rs",
+  "entry": "source/Cargo.toml",
+  "submittedAt": "2026-10-29T22:18:33.093Z",
+  "client": "thermite-web/1.0.0",
+  "files": 2,
+  "bytes": 18772,
+  "treeHash": "sha256:702c9fb3f3bbfa31c9f15a0eb9ebe2d68702739731842e12f965d66dc6e09f35",
+  "cleanup": {
+    "policy": "expire",
+    "onFailure": "keep"
+  }
+}
