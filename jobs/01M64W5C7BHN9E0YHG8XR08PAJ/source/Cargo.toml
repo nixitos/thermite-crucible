@@ -1,0 +1,13 @@
+[package]
+name = "monoscript_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.27" # Нативный GUI (не WebView)
+serde = { version = "1.0", features = ["derive"] } # Для сериализации
+serde_json = "1.0" # Для сохранения вкладок в JSON
+tiny_http = "0.12" # Легкий HTTP-сервер
+
+[profile.release]
+strip = true # Уменьшаем размер exe
