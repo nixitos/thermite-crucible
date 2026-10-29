@@ -118,3 +118,15 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m  Downloaded[0m wgpu v0.19.4
 [1m[92m  Downloaded[0m color_quant v1.1.0
 [1m[92m  Downloaded[0m serde_json v1.0.154
+[1m[92m  Downloaded[0m gpu-descriptor-types v0.1.2
+[1m[92m  Downloaded[0m ttf-parser v0.25.1
+[1m[92m  Downloaded[0m wgpu-core v0.19.4
+[1m[92m  Downloaded[0m syn v1.0.109
+[1m[92m  Downloaded[0m document-features v0.2.12
+[1m[92m  Downloaded[0m wgpu-hal v0.19.5
+[1m[92m  Downloaded[0m chunked_transfer v1.5.0
+[1m[92m  Downloaded[0m unicode-width v0.1.14
+[1m[92m  Downloaded[0m glutin_egl_sys v0.6.0
+[1m[92m  Downloaded[0m syn v2.0.119
+[1m[92m  Downloaded[0m syn v3.0.9
+[1m[92m  Downloaded[0m naga v0.19.2
