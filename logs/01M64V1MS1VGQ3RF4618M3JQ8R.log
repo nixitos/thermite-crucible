@@ -259,3 +259,6 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m bytemuck v1.25.2
 [1m[92m   Compiling[0m icu_collections v2.4.0
 [1m[92m   Compiling[0m owned_ttf_parser v0.25.1
+[1m[92m   Compiling[0m lock_api v0.4.14
+[1m[92m   Compiling[0m icu_provider v2.4.0
+[1m[92m   Compiling[0m icu_normalizer v2.4.0
