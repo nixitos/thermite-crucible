@@ -1,0 +1,18 @@
+{
+  "job": "01M64T7CW9DSP1WQ6XJ6S6YA5P",
+  "phase": "INGEST",
+  "live": true,
+  "startedAt": "2026-10-29T21:50:02.156Z",
+  "updatedAt": "2026-10-29T21:50:05.258Z",
+  "bytes": 403,
+  "lines": 11,
+  "lineRate": 11,
+  "runner": "Windows/X64",
+  "sealed": false,
+  "runId": "40961002568",
+  "sha": "be7ad5f8afeafc0c0a221b31ab99fc71d56c7f55",
+  "rustc": null,
+  "cargo": null,
+  "target": "x86_64-pc-windows-msvc",
+  "toolchain": "1.99.1"
+}
