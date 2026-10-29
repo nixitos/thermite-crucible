@@ -24,3 +24,45 @@ info: component rust-std is up to date
 $ cargo +stable build --release --target x86_64-pc-windows-msvc
 
 [1m[92m    Updating[0m crates.io index
+[1m[92m     Locking[0m 423 packages to highest compatible versions
+[1m[92m      Adding[0m block-sys v0.1.0-beta.1 [1m[93m(available: v0.1.0-beta.2)[0m
+[1m[92m      Adding[0m block2 v0.2.0-alpha.6 [1m[93m(available: v0.2.0)[0m
+[1m[92m      Adding[0m eframe v0.27.2 [1m[93m(available: v0.37.0)[0m
+[1m[92m      Adding[0m generic-array v0.14.7 [1m[93m(available: v0.14.9)[0m
+[1m[92m      Adding[0m objc-sys v0.2.0-beta.2 [1m[93m(available: v0.2.0-beta.3)[0m
+[1m[92m      Adding[0m objc2 v0.3.0-beta.3.patch-leaks.3 [1m[93m(available: v0.3.0-beta.5)[0m
+[1m[92m      Adding[0m objc2-encode v2.0.0-pre.2 [1m[93m(available: v2.0.0)[0m
+[1m[92m      Adding[0m zvariant_utils v1.0.1 [1m[93m(available: v1.1.1)[0m
+[1m[92m Downloading[0m crates ...
+[1m[92m  Downloaded[0m windows-implement v0.48.0
+[1m[92m  Downloaded[0m windows-interface v0.48.0
+[1m[92m  Downloaded[0m chunked_transfer v1.5.0
+[1m[92m  Downloaded[0m gpu-descriptor v0.2.4
+[1m[92m  Downloaded[0m windows-targets v0.48.5
+[1m[92m  Downloaded[0m equivalent v1.0.3
+[1m[92m  Downloaded[0m zerofrom v0.1.8
+[1m[92m  Downloaded[0m cursor-icon v1.2.0
+[1m[92m  Downloaded[0m ab_glyph_rasterizer v0.1.10
+[1m[92m  Downloaded[0m litrs v1.0.1
+[1m[92m  Downloaded[0m accesskit v0.12.3
+[1m[92m  Downloaded[0m zerofrom-derive v0.1.8
+[1m[92m  Downloaded[0m hexf-parse v0.2.1
+[1m[92m  Downloaded[0m emath v0.27.2
+[1m[92m  Downloaded[0m itoa v1.0.18
+[1m[92m  Downloaded[0m accesskit_consumer v0.16.1
+[1m[92m  Downloaded[0m autocfg v1.5.1
+[1m[92m  Downloaded[0m egui-wgpu v0.27.2
+[1m[92m  Downloaded[0m gpu-alloc v0.6.2
+[1m[92m  Downloaded[0m adler2 v2.0.1
+[1m[92m  Downloaded[0m ecolor v0.27.2
+[1m[92m  Downloaded[0m gpu-descriptor-types v0.1.2
+[1m[92m  Downloaded[0m yoke-derive v0.8.4
+[1m[92m  Downloaded[0m cfg_aliases v0.1.1
+[1m[92m  Downloaded[0m glutin_egl_sys v0.6.0
+[1m[92m  Downloaded[0m idna_adapter v1.2.2
+[1m[92m  Downloaded[0m rustc-hash v2.1.3
+[1m[92m  Downloaded[0m ab_glyph v0.2.32
+[1m[92m  Downloaded[0m bytemuck_derive v1.12.1
+[1m[92m  Downloaded[0m renderdoc-sys v1.1.0
+[1m[92m  Downloaded[0m zerovec-derive v0.11.7
+[1m[92m  Downloaded[0m accesskit_windows v0.15.1
