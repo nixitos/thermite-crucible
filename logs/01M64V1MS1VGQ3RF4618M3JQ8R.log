@@ -26,3 +26,45 @@ info: component rust-std is up to date
 $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 
 [1m[92m    Updating[0m crates.io index
+[1m[92m     Locking[0m 423 packages to highest compatible versions
+[1m[92m      Adding[0m block-sys v0.1.0-beta.1 [1m[93m(available: v0.1.0-beta.2)[0m
+[1m[92m      Adding[0m block2 v0.2.0-alpha.6 [1m[93m(available: v0.2.0)[0m
+[1m[92m      Adding[0m eframe v0.27.2 [1m[93m(available: v0.37.0)[0m
+[1m[92m      Adding[0m generic-array v0.14.7 [1m[93m(available: v0.14.9)[0m
+[1m[92m      Adding[0m objc-sys v0.2.0-beta.2 [1m[93m(available: v0.2.0-beta.3)[0m
+[1m[92m      Adding[0m objc2 v0.3.0-beta.3.patch-leaks.3 [1m[93m(available: v0.3.0-beta.5)[0m
+[1m[92m      Adding[0m objc2-encode v2.0.0-pre.2 [1m[93m(available: v2.0.0)[0m
+[1m[92m      Adding[0m zvariant_utils v1.0.1 [1m[93m(available: v1.1.1)[0m
+[1m[92m Downloading[0m crates ...
+[1m[92m  Downloaded[0m yoke-derive v0.8.4
+[1m[92m  Downloaded[0m ab_glyph v0.2.32
+[1m[92m  Downloaded[0m windows-interface v0.48.0
+[1m[92m  Downloaded[0m windows-link v0.2.1
+[1m[92m  Downloaded[0m zerofrom-derive v0.1.8
+[1m[92m  Downloaded[0m adler2 v2.0.1
+[1m[92m  Downloaded[0m windows-implement v0.48.0
+[1m[92m  Downloaded[0m windows-targets v0.48.5
+[1m[92m  Downloaded[0m khronos-egl v6.0.0
+[1m[92m  Downloaded[0m windows-targets v0.52.6
+[1m[92m  Downloaded[0m writeable v0.6.4
+[1m[92m  Downloaded[0m yoke v0.8.4
+[1m[92m  Downloaded[0m ab_glyph_rasterizer v0.1.10
+[1m[92m  Downloaded[0m xml-rs v0.8.29
+[1m[92m  Downloaded[0m zerotrie v0.2.5
+[1m[92m  Downloaded[0m zerofrom v0.1.8
+[1m[92m  Downloaded[0m zlib-rs v0.6.8
+[1m[92m  Downloaded[0m nohash-hasher v0.2.0
+[1m[92m  Downloaded[0m ascii v1.1.0
+[1m[92m  Downloaded[0m cursor-icon v1.2.0
+[1m[92m  Downloaded[0m log v0.4.34
+[1m[92m  Downloaded[0m owned_ttf_parser v0.25.1
+[1m[92m  Downloaded[0m proc-macro2 v1.0.107
+[1m[92m  Downloaded[0m stable_deref_trait v1.2.1
+[1m[92m  Downloaded[0m zerocopy v0.8.63
+[1m[92m  Downloaded[0m zerovec-derive v0.11.7
+[1m[92m  Downloaded[0m zmij v1.0.23
+[1m[92m  Downloaded[0m libloading v0.7.4
+[1m[92m  Downloaded[0m litemap v0.8.3
+[1m[92m  Downloaded[0m chunked_transfer v1.5.0
+[1m[92m  Downloaded[0m presser v0.3.1
+[1m[92m  Downloaded[0m smallvec v1.16.4
