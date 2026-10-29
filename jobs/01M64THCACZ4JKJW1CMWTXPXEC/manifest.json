@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "id": "01M64THCACZ4JKJW1CMWTXPXEC",
+  "toolchain": "1.99.1",
+  "target": "x86_64-pc-windows-msvc",
+  "projectType": "cargo",
+  "name": "test_gui",
+  "entry": "source/Cargo.toml",
+  "submittedAt": "2026-10-29T21:54:56.932Z",
+  "client": "thermite-web/1.0.0",
+  "files": 2,
+  "bytes": 908,
+  "treeHash": "sha256:6f40826561ee6fb32833113204548a58c7c89c753a04b9a2cdfb4712e22cfb40",
+  "cleanup": {
+    "policy": "expire",
+    "onFailure": "keep"
+  }
+}
