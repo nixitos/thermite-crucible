@@ -318,3 +318,8 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m egui_glow v0.27.2
 [1m[92m   Compiling[0m eframe v0.27.2
 [1m[92m   Compiling[0m test_gui v0.1.0 (D:\a\thermite-crucible\thermite-crucible\jobs\01M64THCACZ4JKJW1CMWTXPXEC\source)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 1m 25s
+
+##thermite:linking
+Compiled clean. Casting the ingot.
+##thermite:packaged thermite-01M64THCACZ4JKJW1CMWTXPXEC.zip sha256=425e728893219d6708ae616e2b275bf0d56e9fcf12d3649ad993ae8dc6172c98
