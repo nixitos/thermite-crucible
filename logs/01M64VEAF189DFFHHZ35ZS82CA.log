@@ -224,3 +224,14 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m writeable v0.6.4
 [1m[92m   Compiling[0m utf_types v1.0.0
 [1m[92m   Compiling[0m litemap v0.8.3
+[1m[92m   Compiling[0m xml-rs v0.8.29
+[1m[92m   Compiling[0m utf8_iter v1.1.0
+[1m[92m   Compiling[0m autocfg v1.5.1
+[1m[92m   Compiling[0m syn v3.0.9
+[1m[92m   Compiling[0m icu_normalizer_data v2.4.0
+[1m[92m   Compiling[0m gl_generator v0.14.0
+[1m[92m   Compiling[0m icu_properties_data v2.4.0
+[1m[92m   Compiling[0m syn v1.0.109
+[1m[92m   Compiling[0m parking_lot_core v0.9.12
+[1m[92m   Compiling[0m version_check v0.9.5
+[1m[92m   Compiling[0m zerocopy v0.8.63
