@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "id": "01M6KJC7D2WX4V4VN5VTTA31CS",
+  "toolchain": "1.99.1",
+  "target": "x86_64-pc-windows-msvc",
+  "projectType": "cargo",
+  "name": "deepseek-webview",
+  "entry": "source/Cargo.toml",
+  "submittedAt": "2026-11-04T15:20:56.087Z",
+  "client": "thermite-web/1.0.0",
+  "files": 5,
+  "bytes": 424349,
+  "treeHash": "sha256:b1c0856b17d6f8d86dd4f8300da3aa8c0daba55d64db5413fc6b0d572f2b0bcc",
+  "cleanup": {
+    "policy": "expire",
+    "onFailure": "keep"
+  }
+}
