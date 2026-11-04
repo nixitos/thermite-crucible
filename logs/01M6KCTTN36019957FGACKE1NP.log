@@ -388,3 +388,27 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m unicode-segmentation v1.13.3
 [1m[92m   Compiling[0m image v0.25.10
 [1m[92m   Compiling[0m tao v0.30.8
+[1m[91merror[E0599][0m[1m[97m: no method named `with_web_context` found for struct `WebViewBuilder<'_>` in the current scope[0m
+  [1m[96m--> [0msrc\main.rs:57:10
+   [1m[96m|[0m
+[1m[96m56[0m [1m[96m|[0m       let _webview = WebViewBuilder::new()
+   [1m[96m|[0m [1m[96m ____________________-[0m
+[1m[96m57[0m [1m[96m|[0m [1m[96m|[0m         .with_web_context(&mut web_context) // <-- Привязываем контекст сохранения сессии
+   [1m[96m|[0m [1m[96m|[0m         [1m[96m-[0m[1m[91m^^^^^^^^^^^^^^^^[0m [1m[91mthis is an associated function, not a method[0m
+   [1m[96m|[0m [1m[96m|_________|[0m
+   [1m[96m|[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: found the following associated functions; to be used as methods, functions must have a `self` parameter
+   [1m[96m= [0m[1m[97mnote[0m: the candidate is defined in an impl for the type `WebViewBuilder<'a>`
+[1m[96mhelp[0m: use associated function syntax instead
+   [1m[96m|[0m
+[1m[96m56[0m [91m- [0m    let _webview = [91mWebViewBuilder::new()[0m
+[1m[96m57[0m [91m-         .with_web_context(&mut web_context)[0m // <-- Привязываем контекст сохранения сессии
+[1m[96m56[0m [92m+ [0m    let _webview = [92mWebViewBuilder::<'_>::with_web_context(&mut web_context)[0m // <-- Привязываем контекст сохранения сессии
+   [1m[96m|[0m
+
+[1m[97mFor more information about this error, try `rustc --explain E0599`.[0m
+[1m[91merror[0m: could not compile `deepseek-webview` (bin "deepseek-webview") due to 1 previous error
+
+##thermite:failed:101
+Compilation failed. Exit code 101.
