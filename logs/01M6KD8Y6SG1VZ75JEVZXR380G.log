@@ -388,3 +388,33 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m lazy_static v1.5.1
 [1m[92m   Compiling[0m image v0.25.10
 [1m[92m   Compiling[0m tao v0.30.8
+[1m[91merror[E0599][0m[1m[97m: no associated function or constant named `new_with_web_context` found for struct `WebViewBuilder<'a>` in the current scope[0m
+   [1m[96m--> [0msrc\main.rs:66:36
+    [1m[96m|[0m
+[1m[96m 66[0m [1m[96m|[0m     let _webview = WebViewBuilder::new_with_web_context(&mut web_context)
+    [1m[96m|[0m                                    [1m[91m^^^^^^^^^^^^^^^^^^^^[0m [1m[91massociated function or constant not found in `WebViewBuilder<'_>`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: if you're trying to build a new `WebViewBuilder<'_>` consider using one of the following associated functions:
+      WebViewBuilder::<'a>::new
+      WebViewBuilder::<'a>::with_web_context
+      WebViewBuilder::<'a>::with_attributes
+   [1m[96m--> [0mC:\Users\runneradmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.50.5\src\lib.rs:757:3
+    [1m[96m|[0m
+[1m[96m757[0m [1m[96m|[0m   pub fn new() -> Self {
+    [1m[96m|[0m   [1m[92m^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96m...[0m
+[1m[96m768[0m [1m[96m|[0m   pub fn with_web_context(web_context: &'a mut WebContext) -> Self {
+    [1m[96m|[0m   [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96m...[0m
+[1m[96m784[0m [1m[96m|[0m   pub fn with_attributes(attrs: WebViewAttributes<'a>) -> Self {
+    [1m[96m|[0m   [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m: there is an associated function `with_web_context` with a similar name
+    [1m[96m|[0m
+[1m[96m 66[0m [91m- [0m    let _webview = WebViewBuilder::[91mnew_with_web_context[0m(&mut web_context)
+[1m[96m 66[0m [92m+ [0m    let _webview = WebViewBuilder::[92mwith_web_context[0m(&mut web_context)
+    [1m[96m|[0m
+
+[1m[97mFor more information about this error, try `rustc --explain E0599`.[0m
+[1m[91merror[0m: could not compile `deepseek-webview` (bin "deepseek-webview") due to 1 previous error
+
+##thermite:failed:101
