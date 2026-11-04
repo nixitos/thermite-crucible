@@ -347,3 +347,16 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m time v0.3.55
 [1m[92m   Compiling[0m loop9 v0.1.5
 [1m[92m   Compiling[0m windows-core v0.58.0
+[1m[92m   Compiling[0m winres v0.1.12
+[1m[92m   Compiling[0m idna v1.1.0
+[1m[92m   Compiling[0m windows-version v0.1.7
+[1m[92m   Compiling[0m avif-serialize v0.8.9
+[1m[92m   Compiling[0m webview2-com-macros v0.8.1
+[1m[92m   Compiling[0m fdeflate v0.3.7
+[1m[92m   Compiling[0m zune-inflate v0.2.54
+[1m[92m   Compiling[0m raw-window-handle v0.6.2
+[1m[92m   Compiling[0m bytes v1.12.1
+[1m[92m   Compiling[0m pxfm v0.1.30
+[1m[92m   Compiling[0m once_cell v1.21.4
+[1m[92m   Compiling[0m rgb v0.8.53
+[1m[92m   Compiling[0m itoa v1.0.18
