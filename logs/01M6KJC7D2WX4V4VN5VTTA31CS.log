@@ -282,3 +282,8 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m num-rational v0.4.2
 [1m[92m   Compiling[0m v_frame v0.3.9
 [1m[92m   Compiling[0m rayon v1.12.0
+[1m[92m   Compiling[0m zerocopy-derive v0.8.63
+[1m[92m   Compiling[0m as-slice v0.2.1
+[1m[92m   Compiling[0m bytemuck v1.25.2
+[1m[92m   Compiling[0m built v0.8.1
+[1m[92m   Compiling[0m av-scenechange v0.14.1
