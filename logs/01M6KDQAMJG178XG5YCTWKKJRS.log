@@ -389,3 +389,7 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m image v0.25.10
 [1m[92m   Compiling[0m tao v0.30.8
 [1m[92m    Finished[0m `release` profile [optimized] target(s) in 2m 50s
+
+##thermite:linking
+Compiled clean. Casting the ingot.
+##thermite:packaged thermite-01M6KDQAMJG178XG5YCTWKKJRS.zip sha256=cecb7c1eefc3092c959fb40e84bb83903efbd26ab0a3a2a87dbec49cd9178ef7
