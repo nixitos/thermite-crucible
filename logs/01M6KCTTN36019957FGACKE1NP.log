@@ -412,3 +412,7 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 
 ##thermite:failed:101
 Compilation failed. Exit code 101.
+
+BUILD FAILED
+
+##thermite:end:FAILED
