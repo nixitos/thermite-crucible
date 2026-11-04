@@ -353,3 +353,7 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m avif-serialize v0.8.9
 [1m[92m   Compiling[0m webview2-com-macros v0.8.1
 [1m[92m   Compiling[0m fdeflate v0.3.7
+[1m[92m   Compiling[0m zune-inflate v0.2.54
+[1m[92m   Compiling[0m bytes v1.12.1
+[1m[92m   Compiling[0m byteorder-lite v0.1.0
+[1m[92m   Compiling[0m lebe v0.5.3
