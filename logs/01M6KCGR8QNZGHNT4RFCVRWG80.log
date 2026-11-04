@@ -388,3 +388,14 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m unicode-segmentation v1.13.3
 [1m[92m   Compiling[0m image v0.25.10
 [1m[92m   Compiling[0m tao v0.30.8
+[1m[91merror[E0599][0m[1m[97m: no method named `with_data_directory` found for struct `WebViewBuilder<'a>` in the current scope[0m
+  [1m[96m--> [0msrc\main.rs:67:10
+   [1m[96m|[0m
+[1m[96m65[0m [1m[96m|[0m       let _webview = WebViewBuilder::new()
+   [1m[96m|[0m [1m[96m ____________________-[0m
+[1m[96m66[0m [1m[96m|[0m [1m[96m|[0m         .with_url("https://chat.deepseek.com")
+[1m[96m67[0m [1m[96m|[0m [1m[96m|[0m         .with_data_directory("./deepseek_user_data") // Сохраняет cookies и localStorage
+   [1m[96m|[0m [1m[96m|[0m         [1m[96m-[0m[1m[91m^^^^^^^^^^^^^^^^^^^[0m [1m[91mmethod not found in `WebViewBuilder<'_>`[0m
+   [1m[96m|[0m [1m[96m|_________|[0m
+   [1m[96m|[0m
+
