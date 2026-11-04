@@ -380,3 +380,5 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m url v2.5.8
 [1m[92m   Compiling[0m deepseek-webview v0.1.0 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6KCTTN36019957FGACKE1NP\source)
 [1m[92m   Compiling[0m windows v0.58.0
+[1m[92m   Compiling[0m qoi v0.4.1
+[1m[92m   Compiling[0m crossbeam-channel v0.5.17
