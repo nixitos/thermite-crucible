@@ -26,3 +26,30 @@ info: component rust-std is up to date
 $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 
 [1m[92m    Updating[0m crates.io index
+[1m[92m     Locking[0m 391 packages to highest compatible versions
+[1m[92m      Adding[0m generic-array v0.14.7 [1m[93m(available: v0.14.9)[0m
+[1m[92m      Adding[0m tao v0.30.8 [1m[93m(available: v0.37.2)[0m
+[1m[92m      Adding[0m toml v0.8.2 [1m[93m(available: v0.8.23)[0m
+[1m[92m      Adding[0m toml_datetime v0.6.3 [1m[93m(available: v0.6.11)[0m
+[1m[92m      Adding[0m toml_edit v0.20.2 [1m[93m(available: v0.20.7)[0m
+[1m[92m      Adding[0m webkit2gtk v2.0.1 [1m[93m(available: v2.0.2)[0m
+[1m[92m      Adding[0m webkit2gtk-sys v2.0.1 [1m[93m(available: v2.0.2)[0m
+[1m[92m      Adding[0m wry v0.50.5 [1m[93m(available: v0.57.1)[0m
+[1m[92m Downloading[0m crates ...
+[1m[92m  Downloaded[0m arg_enum_proc_macro v0.3.4
+[1m[92m  Downloaded[0m color_quant v1.1.0
+[1m[92m  Downloaded[0m zerofrom-derive v0.1.8
+[1m[92m  Downloaded[0m zerotrie v0.2.5
+[1m[92m  Downloaded[0m zerovec-derive v0.11.7
+[1m[92m  Downloaded[0m zune-core v0.5.3
+[1m[92m  Downloaded[0m zune-inflate v0.2.54
+[1m[92m  Downloaded[0m autocfg v1.5.1
+[1m[92m  Downloaded[0m crossbeam-utils v0.8.23
+[1m[92m  Downloaded[0m new_debug_unreachable v1.0.6
+[1m[92m  Downloaded[0m crossbeam-channel v0.5.17
+[1m[92m  Downloaded[0m flate2 v1.1.10
+[1m[92m  Downloaded[0m icu_collections v2.4.0
+[1m[92m  Downloaded[0m icu_normalizer_data v2.4.0
+[1m[92m  Downloaded[0m image v0.25.10
+[1m[92m  Downloaded[0m itertools v0.14.0
+[1m[92m  Downloaded[0m litemap v0.8.3
