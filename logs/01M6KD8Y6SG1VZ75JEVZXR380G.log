@@ -305,3 +305,12 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m arg_enum_proc_macro v0.3.4
 [1m[92m   Compiling[0m pulp v0.22.3
 [1m[92m   Compiling[0m pastey v0.1.1
+[1m[92m   Compiling[0m quick-error v2.0.1
+[1m[92m   Compiling[0m num-conv v0.2.2
+[1m[92m   Compiling[0m y4m v0.8.0
+[1m[92m   Compiling[0m parking_lot_core v0.9.12
+[1m[92m   Compiling[0m time-core v0.1.9
+[1m[92m   Compiling[0m time-macros v0.2.32
+[1m[92m   Compiling[0m half v2.7.1
+[1m[92m   Compiling[0m profiling v1.0.18
+[1m[92m   Compiling[0m bitstream-io v4.10.0
