@@ -241,3 +241,12 @@ $ cargo +1.99.1 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m paste v1.0.15
 [1m[92m   Compiling[0m libc v0.2.191
 [1m[92m   Compiling[0m simd-adler32 v0.3.10
+[1m[92m   Compiling[0m synstructure v0.14.0
+[1m[92m   Compiling[0m av-scenechange v0.14.1
+[1m[92m   Compiling[0m libm v0.2.16
+[1m[92m   Compiling[0m adler2 v2.0.1
+[1m[92m   Compiling[0m built v0.8.1
+[1m[92m   Compiling[0m pulp v0.22.3
+[1m[92m   Compiling[0m thiserror-impl v2.0.21
+[1m[92m   Compiling[0m zerofrom-derive v0.1.8
+[1m[92m   Compiling[0m yoke-derive v0.8.4
