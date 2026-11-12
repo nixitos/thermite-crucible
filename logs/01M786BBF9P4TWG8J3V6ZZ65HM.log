@@ -196,3 +196,11 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m  Downloaded[0m windows v0.58.0
 [1m[92m  Downloaded[0m bitflags v1.3.2
 [1m[92m  Downloaded[0m displaydoc v0.2.7
+[1m[92m  Downloaded[0m webview2-com-sys v0.36.0
+[1m[92m  Downloaded[0m new_debug_unreachable v1.0.6
+[1m[92m  Downloaded[0m num-conv v0.2.2
+[1m[92m  Downloaded[0m idna v1.1.0
+[1m[92m  Downloaded[0m log v0.4.35
+[1m[92m  Downloaded[0m multiversion v0.8.1
+[1m[92m  Downloaded[0m paste v1.0.15
+[1m[92m  Downloaded[0m litemap v0.8.3
