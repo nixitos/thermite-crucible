@@ -221,3 +221,15 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m crossbeam-utils v0.8.23
 [1m[92m   Compiling[0m autocfg v1.5.1
 [1m[92m   Compiling[0m num-traits v0.2.19
+[1m[92m   Compiling[0m crossbeam-epoch v0.9.21
+[1m[92m   Compiling[0m crossbeam-deque v0.8.8
+[1m[92m   Compiling[0m stable_deref_trait v1.2.1
+[1m[92m   Compiling[0m rayon-core v1.13.0
+[1m[92m   Compiling[0m thiserror v2.0.21
+[1m[92m   Compiling[0m anyhow v1.0.104
+[1m[92m   Compiling[0m crc32fast v1.5.5
+[1m[92m   Compiling[0m zerocopy v0.8.63
+[1m[92m   Compiling[0m cfg-if v1.0.5
+[1m[92m   Compiling[0m libc v0.2.191
+[1m[92m   Compiling[0m target-features v0.1.6
+[1m[92m   Compiling[0m simd-adler32 v0.3.10
