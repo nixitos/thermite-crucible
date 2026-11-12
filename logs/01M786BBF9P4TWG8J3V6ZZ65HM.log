@@ -318,3 +318,4 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m icu_properties v2.4.0
 [1m[92m   Compiling[0m icu_normalizer v2.4.0
 [1m[92m   Compiling[0m windows-result v0.2.0
+[1m[92m   Compiling[0m windows-future v0.1.1
