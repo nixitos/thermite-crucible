@@ -366,3 +366,4 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m ico v0.3.0
 [1m[92m   Compiling[0m lock_api v0.4.14
 [1m[92m   Compiling[0m windows-core v0.58.0
+[1m[92m   Compiling[0m winres v0.1.12
