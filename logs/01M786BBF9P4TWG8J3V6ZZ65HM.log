@@ -400,3 +400,6 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[93mwarning[0m: `deepseek-webview` (bin "deepseek-webview") generated 1 warning (run `cargo fix --bin "deepseek-webview" -p deepseek-webview` to apply 1 suggestion)
 [1m[92m    Finished[0m `release` profile [optimized] target(s) in 4m 00s
 
+##thermite:linking
+Compiled clean. Casting the ingot.
+##thermite:packaged thermite-01M786BBF9P4TWG8J3V6ZZ65HM.zip sha256=057785ab8587f17e170c043367e3bedc532d7853a3ec62c715b16d44f6fc1088
