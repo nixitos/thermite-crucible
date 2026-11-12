@@ -331,3 +331,15 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m color_quant v1.1.0
 [1m[92m   Compiling[0m pxfm v0.1.30
 [1m[92m   Compiling[0m version_check v0.9.5
+[1m[92m   Compiling[0m lebe v0.5.3
+[1m[92m   Compiling[0m bitflags v2.13.2
+[1m[92m   Compiling[0m rgb v0.8.53
+[1m[92m   Compiling[0m parking_lot_core v0.9.12
+[1m[92m   Compiling[0m fax v0.2.7
+[1m[92m   Compiling[0m bytemuck v1.25.2
+[1m[92m   Compiling[0m time-core v0.1.9
+[1m[92m   Compiling[0m byteorder-lite v0.1.0
+[1m[92m   Compiling[0m qoi v0.4.1
+[1m[92m   Compiling[0m time-macros v0.2.32
+[1m[92m   Compiling[0m tiff v0.11.3
+[1m[92m   Compiling[0m image-webp v0.2.4
