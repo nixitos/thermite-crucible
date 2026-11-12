@@ -290,3 +290,5 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m miniz_oxide v0.8.9
 [1m[92m   Compiling[0m log v0.4.35
 [1m[92m   Compiling[0m icu_normalizer_data v2.4.0
+[1m[92m   Compiling[0m serde_core v1.0.229
+[1m[92m   Compiling[0m icu_properties_data v2.4.0
