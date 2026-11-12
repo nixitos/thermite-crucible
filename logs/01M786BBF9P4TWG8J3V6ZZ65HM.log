@@ -319,3 +319,15 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m icu_normalizer v2.4.0
 [1m[92m   Compiling[0m windows-result v0.2.0
 [1m[92m   Compiling[0m windows-future v0.1.1
+[1m[92m   Compiling[0m windows-collections v0.1.1
+[1m[92m   Compiling[0m windows-numerics v0.1.1
+[1m[92m   Compiling[0m avif-serialize v0.8.9
+[1m[92m   Compiling[0m multiversion v0.8.1
+[1m[92m   Compiling[0m webview2-com-sys v0.36.0
+[1m[92m   Compiling[0m zune-inflate v0.2.54
+[1m[92m   Compiling[0m bitflags v1.3.2
+[1m[92m   Compiling[0m bit_field v0.10.4
+[1m[92m   Compiling[0m num-conv v0.2.2
+[1m[92m   Compiling[0m color_quant v1.1.0
+[1m[92m   Compiling[0m pxfm v0.1.30
+[1m[92m   Compiling[0m version_check v0.9.5
