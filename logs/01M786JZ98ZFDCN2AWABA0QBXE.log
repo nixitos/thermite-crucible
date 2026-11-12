@@ -232,3 +232,13 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m zerocopy v0.8.63
 [1m[92m   Compiling[0m simd-adler32 v0.3.10
 [1m[92m   Compiling[0m libc v0.2.191
+[1m[92m   Compiling[0m target-features v0.1.6
+[1m[92m   Compiling[0m syn v2.0.119
+[1m[92m   Compiling[0m syn v3.0.10
+[1m[92m   Compiling[0m av-scenechange v0.14.1
+[1m[92m   Compiling[0m built v0.8.1
+[1m[92m   Compiling[0m adler2 v2.0.1
+[1m[92m   Compiling[0m rav1e v0.8.1
+[1m[92m   Compiling[0m windows-link v0.1.3
+[1m[92m   Compiling[0m pastey v0.1.1
+[1m[92m   Compiling[0m paste v1.0.15
