@@ -304,3 +304,7 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m half v2.7.1
 [1m[92m   Compiling[0m av1-grain v0.2.5
 [1m[92m   Compiling[0m bitstream-io v4.10.0
+[1m[92m   Compiling[0m windows-targets v0.52.6
+[1m[92m   Compiling[0m maybe-rayon v0.1.1
+[1m[92m   Compiling[0m profiling v1.0.18
+[1m[92m   Compiling[0m itertools v0.14.0
