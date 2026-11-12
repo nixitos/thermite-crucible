@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "id": "01M786JZ98ZFDCN2AWABA0QBXE",
+  "toolchain": "stable",
+  "target": "x86_64-pc-windows-msvc",
+  "projectType": "cargo",
+  "name": "deepseek-webka",
+  "entry": "source/Cargo.toml",
+  "submittedAt": "2026-11-12T15:38:57.264Z",
+  "client": "thermite-web/1.0.0",
+  "files": 5,
+  "bytes": 19532,
+  "treeHash": "sha256:6121ab597731a2d55ded0affdf85f0ab5ca101bdf20306b5e35fa8f056207133",
+  "cleanup": {
+    "policy": "expire",
+    "onFailure": "keep"
+  }
+}
