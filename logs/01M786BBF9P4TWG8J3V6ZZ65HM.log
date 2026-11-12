@@ -378,3 +378,4 @@ $ cargo +stable build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m once_cell v1.21.4
 [1m[92m   Compiling[0m dpi v0.1.2
 [1m[92m   Compiling[0m http v1.5.0
+[1m[92m   Compiling[0m webview2-com v0.36.0
