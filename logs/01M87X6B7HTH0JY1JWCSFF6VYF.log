@@ -329,3 +329,73 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m open v5.4.5
 [1m[92m   Compiling[0m eframe v0.29.1
 [1m[92m   Compiling[0m ludoclient-injector v2.1.0 (D:\a\thermite-crucible\thermite-crucible\jobs\01M87X6B7HTH0JY1JWCSFF6VYF\source)
+[1m[91merror[E0599][0m[1m[97m: no method named `desired_height` found for struct `eframe::egui::TextEdit<'t>` in the current scope[0m
+    [1m[96m--> [0msrc\main.rs:1795:18
+     [1m[96m|[0m
+[1m[96m1792[0m [1m[96m|[0m [1m[96m/[0m             egui::TextEdit::singleline(&mut self.card_name)
+[1m[96m1793[0m [1m[96m|[0m [1m[96m|[0m                 .hint_text("IVAN IVANOV")
+[1m[96m1794[0m [1m[96m|[0m [1m[96m|[0m                 .desired_width(w)
+[1m[96m1795[0m [1m[96m|[0m [1m[96m|[0m                 .desired_height(44.0)
+     [1m[96m|[0m [1m[96m|_________________-[0m[1m[91m^^^^^^^^^^^^^^[0m
+     [1m[96m|[0m
+[1m[96mhelp[0m: there is a method `desired_width` with a similar name
+     [1m[96m|[0m
+[1m[96m1795[0m [91m- [0m                .[91mdesired_height[0m(44.0)
+[1m[96m1795[0m [92m+ [0m                .[92mdesired_width[0m(44.0)
+     [1m[96m|[0m
+
+[1m[91merror[E0599][0m[1m[97m: no method named `desired_height` found for struct `eframe::egui::TextEdit<'t>` in the current scope[0m
+    [1m[96m--> [0msrc\main.rs:1805:18
+     [1m[96m|[0m
+[1m[96m1802[0m [1m[96m|[0m [1m[96m/[0m             egui::TextEdit::singleline(&mut self.card_number)
+[1m[96m1803[0m [1m[96m|[0m [1m[96m|[0m                 .hint_text("0000 0000 0000 0000")
+[1m[96m1804[0m [1m[96m|[0m [1m[96m|[0m                 .desired_width(w)
+[1m[96m1805[0m [1m[96m|[0m [1m[96m|[0m                 .desired_height(44.0)
+     [1m[96m|[0m [1m[96m|_________________-[0m[1m[91m^^^^^^^^^^^^^^[0m
+     [1m[96m|[0m
+[1m[96mhelp[0m: there is a method `desired_width` with a similar name
+     [1m[96m|[0m
+[1m[96m1805[0m [91m- [0m                .[91mdesired_height[0m(44.0)
+[1m[96m1805[0m [92m+ [0m                .[92mdesired_width[0m(44.0)
+     [1m[96m|[0m
+
+[1m[91merror[E0599][0m[1m[97m: no method named `desired_height` found for struct `eframe::egui::TextEdit<'t>` in the current scope[0m
+    [1m[96m--> [0msrc\main.rs:1834:26
+     [1m[96m|[0m
+[1m[96m1831[0m [1m[96m|[0m [1m[96m/[0m                     egui::TextEdit::singleline(&mut self.card_expiry)
+[1m[96m1832[0m [1m[96m|[0m [1m[96m|[0m                         .hint_text("MM/YY")
+[1m[96m1833[0m [1m[96m|[0m [1m[96m|[0m                         .desired_width(half)
+[1m[96m1834[0m [1m[96m|[0m [1m[96m|[0m                         .desired_height(44.0)
+     [1m[96m|[0m [1m[96m|_________________________-[0m[1m[91m^^^^^^^^^^^^^^[0m
+     [1m[96m|[0m
+[1m[96mhelp[0m: there is a method `desired_width` with a similar name
+     [1m[96m|[0m
+[1m[96m1834[0m [91m- [0m                        .[91mdesired_height[0m(44.0)
+[1m[96m1834[0m [92m+ [0m                        .[92mdesired_width[0m(44.0)
+     [1m[96m|[0m
+
+[1m[91merror[E0599][0m[1m[97m: no method named `desired_height` found for struct `eframe::egui::TextEdit<'t>` in the current scope[0m
+    [1m[96m--> [0msrc\main.rs:1859:26
+     [1m[96m|[0m
+[1m[96m1855[0m [1m[96m|[0m [1m[96m/[0m                     egui::TextEdit::singleline(&mut self.card_cvv)
+[1m[96m1856[0m [1m[96m|[0m [1m[96m|[0m                         .hint_text("•••")
+[1m[96m1857[0m [1m[96m|[0m [1m[96m|[0m                         .password(true)
+[1m[96m1858[0m [1m[96m|[0m [1m[96m|[0m                         .desired_width(half)
+[1m[96m1859[0m [1m[96m|[0m [1m[96m|[0m                         .desired_height(44.0)
+     [1m[96m|[0m [1m[96m|_________________________-[0m[1m[91m^^^^^^^^^^^^^^[0m
+     [1m[96m|[0m
+[1m[96mhelp[0m: there is a method `desired_width` with a similar name
+     [1m[96m|[0m
+[1m[96m1859[0m [91m- [0m                        .[91mdesired_height[0m(44.0)
+[1m[96m1859[0m [92m+ [0m                        .[92mdesired_width[0m(44.0)
+     [1m[96m|[0m
+
+[1m[97mFor more information about this error, try `rustc --explain E0599`.[0m
+[1m[91merror[0m: could not compile `ludoclient-injector` (bin "ludoclient-injector") due to 4 previous errors
+
+##thermite:failed:101
+Compilation failed. Exit code 101.
+
+BUILD FAILED
+
+##thermite:end:FAILED
