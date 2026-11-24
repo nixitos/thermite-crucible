@@ -328,3 +328,19 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m image v0.25.10
 [1m[92m   Compiling[0m open v5.4.5
 [1m[92m   Compiling[0m eframe v0.29.1
+[1m[92m   Compiling[0m ludoclient-injector v2.1.0 (D:\a\thermite-crucible\thermite-crucible\jobs\01M87R3NAAD3HPXGCYM61JE766\source)
+[1m[91merror[0m[1m[97m: this file contains an unclosed delimiter[0m
+  [1m[96m--> [0msrc\main.rs:99:92
+   [1m[96m|[0m
+[1m[96m89[0m [1m[96m|[0m const THEMES: [Theme; 6] = [
+   [1m[96m|[0m                            [1m[96m-[0m [1m[96munclosed delimiter[0m
+[1m[96m...[0m
+[1m[96m96[0m [1m[96m|[0m     Theme { name: "Сталь", bg: rgb(0x0b0d12), s1: rgb(0x12151d), s2: rgb(0x171b25), s3: rgb(0x1e2330),
+   [1m[96m|[0m           [1m[96m-[0m [1m[96mthis delimiter might not be properly closed...[0m
+[1m[96m97[0m [1m[96m|[0m         line: LINE, line2: LINE2, text: rgb(0xe9ecf3), t2: rgb(0x939bad), t3: rgb(0x585f70),
+[1m[96m98[0m [1m[96m|[0m         accent: rgb(0x7da7d3), accent_dim: rgb(0x4a6f9e), danger: rgb(0xd98a8a) },
+   [1m[96m|[0m                                                                                 [1m[96m-[0m [1m[96m...as it matches this but it has different indentation[0m
+[1m[96m99[0m [1m[96m|[0m     Theme { name: "Прайм", bg: rgb(0x0e0c14), s1: rgb(0x15121d), s2: rgb(0x1a1724), s3: rgb
+   [1m[96m|[0m           [1m[96m-[0m [1m[96munclosed delimiter[0m                                                             [1m[91m^[0m
+
+[1m[91merror[0m: could not compile `ludoclient-injector` (bin "ludoclient-injector") due to 1 previous error
