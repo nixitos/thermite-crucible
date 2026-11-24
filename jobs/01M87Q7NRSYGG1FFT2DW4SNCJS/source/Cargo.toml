@@ -1,0 +1,16 @@
+[package]
+name = "ludoclient-injector"
+version = "2.1.0"
+edition = "2021"
+rust-version = "1.82"
+
+[dependencies]
+eframe = "0.29"
+egui = "0.29"
+image = { version = "0.25", default-features = false, features = ["png"] }
+open = "5"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true
