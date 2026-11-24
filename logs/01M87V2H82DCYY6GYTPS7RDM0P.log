@@ -75,3 +75,12 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m  Downloaded[0m serde v1.0.229
 [1m[92m  Downloaded[0m glutin v0.32.3
 [1m[92m  Downloaded[0m flate2 v1.1.11
+[1m[92m  Downloaded[0m bitflags v2.13.2
+[1m[92m  Downloaded[0m serde_derive v1.0.229
+[1m[92m  Downloaded[0m gl_generator v0.14.0
+[1m[92m  Downloaded[0m wgpu-types v22.0.0
+[1m[92m  Downloaded[0m webbrowser v1.2.7
+[1m[92m  Downloaded[0m windows_x86_64_msvc v0.52.6
+[1m[92m  Downloaded[0m epaint_default_fonts v0.29.1
+[1m[92m  Downloaded[0m libc v0.2.191
+[1m[92m  Downloaded[0m pxfm v0.1.30
