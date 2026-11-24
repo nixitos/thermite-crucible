@@ -335,3 +335,7 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 Compiled clean. Casting the ingot.
 ##thermite:packaged thermite-01M87ZF5WN92AM9H1KXGD42GWH.zip sha256=8611e2c2e45a218bd7adbe068dceea756123cceddcda35a9685f38fb5e011d46
 ##thermite:ingot https://github.com/nixitos/thermite-crucible/releases/download/pour-01M87ZF5WN92AM9H1KXGD42GWH/thermite-01M87ZF5WN92AM9H1KXGD42GWH.zip
+
+BUILD SUCCESS
+
+##thermite:end:SUCCESS
