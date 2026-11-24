@@ -304,3 +304,5 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m clipboard-win v5.4.3
 [1m[92m   Compiling[0m flate2 v1.1.11
 [1m[92m   Compiling[0m egui v0.29.1
+[1m[92m   Compiling[0m url v2.5.9
+[1m[92m   Compiling[0m miniz_oxide v0.8.9
