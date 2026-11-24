@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "id": "01M87TBHDVRFM25PMZ3KFDXJX6",
+  "toolchain": "1.93.0",
+  "target": "x86_64-pc-windows-msvc",
+  "projectType": "cargo",
+  "name": "ludoclient-injector",
+  "entry": "source/Cargo.toml",
+  "submittedAt": "2026-11-24T22:20:52.668Z",
+  "client": "thermite-web/1.0.0",
+  "files": 4,
+  "bytes": 2798768,
+  "treeHash": "sha256:28a6378ce0acf560ea2392812d5b2191051cb3af16471bbf30d00c75e508dbc2",
+  "cleanup": {
+    "policy": "expire",
+    "onFailure": "keep"
+  }
+}
