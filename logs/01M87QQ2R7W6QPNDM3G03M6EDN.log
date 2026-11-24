@@ -329,3 +329,37 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m open v5.4.5
 [1m[92m   Compiling[0m eframe v0.29.1
 [1m[92m   Compiling[0m ludoclient-injector v2.1.0 (D:\a\thermite-crucible\thermite-crucible\jobs\01M87QQ2R7W6QPNDM3G03M6EDN\source)
+[1m[91merror[E0015][0m[1m[97m: cannot call non-const associated function `Color32::from_white_alpha` in constants[0m
+  [1m[96m--> [0msrc\main.rs:84:23
+   [1m[96m|[0m
+[1m[96m84[0m [1m[96m|[0m const LINE: Color32 = Color32::from_white_alpha(18);
+   [1m[96m|[0m                       [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: calls in constants are limited to constant functions, tuple structs and tuple variants
+
+[1m[91merror[E0015][0m[1m[97m: cannot call non-const associated function `Color32::from_white_alpha` in constants[0m
+  [1m[96m--> [0msrc\main.rs:85:24
+   [1m[96m|[0m
+[1m[96m85[0m [1m[96m|[0m const LINE2: Color32 = Color32::from_white_alpha(31);
+   [1m[96m|[0m                        [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: calls in constants are limited to constant functions, tuple structs and tuple variants
+
+[1m[91merror[E0503][0m[1m[97m: cannot use `self.smooth_anim` because it was mutably borrowed[0m
+   [1m[96m--> [0msrc\main.rs:470:70
+    [1m[96m|[0m
+[1m[96m470[0m [1m[96m|[0m         toggle_row(ui, t, "Плавные анимации", &mut self.smooth_anim, self.smooth_anim);
+    [1m[96m|[0m         [1m[96m----------[0m                            [1m[96m---------------------[0m  [1m[91m^^^^^^^^^^^^^^^^[0m [1m[91muse of borrowed `self.smooth_anim`[0m
+    [1m[96m|[0m         [1m[96m|[0m                                     [1m[96m|[0m
+    [1m[96m|[0m         [1m[96mborrow later used by call[0m             [1m[96m`self.smooth_anim` is borrowed here[0m
+
+[1m[97mSome errors have detailed explanations: E0015, E0503.[0m
+[1m[97mFor more information about an error, try `rustc --explain E0015`.[0m
+[1m[91merror[0m: could not compile `ludoclient-injector` (bin "ludoclient-injector") due to 3 previous errors
+
+##thermite:failed:101
+Compilation failed. Exit code 101.
+
+BUILD FAILED
+
+##thermite:end:FAILED
