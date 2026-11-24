@@ -200,3 +200,9 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m  Downloaded[0m rustc-hash v1.1.0
 [1m[92m  Downloaded[0m memoffset v0.9.1
 [1m[92m  Downloaded[0m litrs v1.1.0
+[1m[92m  Downloaded[0m libloading v0.8.9
+[1m[92m  Downloaded[0m gpu-allocator v0.26.0
+[1m[92m  Downloaded[0m glutin_wgl_sys v0.6.1
+[1m[92m  Downloaded[0m cursor-icon v1.2.0
+[1m[92m  Downloaded[0m windows v0.52.0
+[1m[92m  Downloaded[0m windows v0.58.0
