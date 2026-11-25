@@ -12,3 +12,6 @@ info: downloading 3 components
 
   1.93.0-x86_64-pc-windows-msvc installed - rustc 1.93.0 (254b59607 2026-01-19)
 
+
+$ rustup target add x86_64-pc-windows-msvc --toolchain 1.93.0
+info: component rust-std is up to date
