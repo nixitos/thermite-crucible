@@ -39,3 +39,13 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m  Downloaded[0m yoke v0.8.4
 [1m[92m  Downloaded[0m webbrowser v1.2.7
 [1m[92m  Downloaded[0m zerotrie v0.2.5
+[1m[92m  Downloaded[0m indexmap v2.14.2
+[1m[92m  Downloaded[0m zerovec v0.11.9
+[1m[92m  Downloaded[0m png v0.18.1
+[1m[92m  Downloaded[0m hashbrown v0.15.5
+[1m[92m  Downloaded[0m wgpu v22.1.0
+[1m[92m  Downloaded[0m moxcms v0.8.1
+[1m[92m  Downloaded[0m zlib-rs v0.6.9
+[1m[92m  Downloaded[0m ttf-parser v0.25.1
+[1m[92m  Downloaded[0m wgpu-core v22.1.0
+[1m[92m  Downloaded[0m unicode-width v0.1.14
