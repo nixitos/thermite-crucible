@@ -330,3 +330,7 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m eframe v0.29.1
 [1m[92m   Compiling[0m ludoclient-injector v2.1.0 (D:\a\thermite-crucible\thermite-crucible\jobs\01M88K6QQVV5CBJH72WSP21B6G\source)
 [1m[92m    Finished[0m `release` profile [optimized] target(s) in 2m 16s
+
+##thermite:linking
+Compiled clean. Casting the ingot.
+##thermite:packaged thermite-01M88K6QQVV5CBJH72WSP21B6G.zip sha256=e8e4c7acc86cfe700a8d811aaec9be4b8a898f3509726c51e6e2bc164ab2b213
