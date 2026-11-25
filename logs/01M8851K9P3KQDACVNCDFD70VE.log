@@ -49,3 +49,9 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m  Downloaded[0m ttf-parser v0.25.1
 [1m[92m  Downloaded[0m wgpu-core v22.1.0
 [1m[92m  Downloaded[0m unicode-width v0.1.14
+[1m[92m  Downloaded[0m icu_properties_data v2.4.0
+[1m[92m  Downloaded[0m wgpu-hal v22.0.0
+[1m[92m  Downloaded[0m syn v2.0.119
+[1m[92m  Downloaded[0m zerocopy v0.8.65
+[1m[92m  Downloaded[0m egui v0.29.1
+[1m[92m  Downloaded[0m syn v3.0.10
