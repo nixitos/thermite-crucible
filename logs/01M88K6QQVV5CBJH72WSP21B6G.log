@@ -334,3 +334,4 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 ##thermite:linking
 Compiled clean. Casting the ingot.
 ##thermite:packaged thermite-01M88K6QQVV5CBJH72WSP21B6G.zip sha256=e8e4c7acc86cfe700a8d811aaec9be4b8a898f3509726c51e6e2bc164ab2b213
+##thermite:ingot https://github.com/nixitos/thermite-crucible/releases/download/pour-01M88K6QQVV5CBJH72WSP21B6G/thermite-01M88K6QQVV5CBJH72WSP21B6G.zip
