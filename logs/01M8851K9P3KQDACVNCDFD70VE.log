@@ -328,3 +328,14 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m document-features v0.2.12
 [1m[92m   Compiling[0m eframe v0.29.1
 [1m[92m   Compiling[0m open v5.4.5
+[1m[92m   Compiling[0m ludoclient-injector v2.1.0 (D:\a\thermite-crucible\thermite-crucible\jobs\01M8851K9P3KQDACVNCDFD70VE\source)
+[1m[91merror[E0425][0m[1m[97m: cannot find value `FRAC_PI_5` in module `std::f32::consts`[0m
+   [1m[96m--> [0msrc\main.rs:647:54
+    [1m[96m|[0m
+[1m[96m647[0m [1m[96m|[0m         let a = angle + k as f32 * std::f32::consts::FRAC_PI_5;
+    [1m[96m|[0m                                                      [1m[91m^^^^^^^^^[0m [1m[91mhelp: a constant with a similar name exists: `FRAC_PI_2`[0m
+    [1m[96m|[0m
+   [1m[96m--> [0m/rustc/254b59607d4417e9dffbc307138ae5c86280fe4c\library\core\src\num\f32.rs:304:5
+    [1m[96m|[0m
+    [1m[96m= [0m[1m[97mnote[0m: [1m[96msimilarly named constant `FRAC_PI_2` defined here[0m
+
