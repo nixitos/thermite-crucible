@@ -333,3 +333,4 @@ $ cargo +1.93.0 build --release --target x86_64-pc-windows-msvc
 
 ##thermite:linking
 Compiled clean. Casting the ingot.
+##thermite:packaged thermite-01M87ZX1DA1D6JBM1T1SX1R398.zip sha256=d2c935135f547b438a87093844b32865e0697c8e7a74dc3c07272173c4557d7e
